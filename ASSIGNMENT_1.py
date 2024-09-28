@@ -18,8 +18,8 @@ c = 0
 for i in range(0, 4):
     b = a[i]  
     c = c + int(b)  
-
 print(f"Sum:{c}")
+
 #q4
 distance=int(input("Enter the distance between two cities in kilometers:"))
 meter=distance*1000
