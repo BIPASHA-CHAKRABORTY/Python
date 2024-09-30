@@ -1,4 +1,4 @@
-#Q1
+#Q1 AREA OF RECTANGLE
 area=0
 length = 0
 breadth = 0
@@ -6,7 +6,7 @@ length=eval(input("Enter the Length of Rectange:"))
 breadth=eval(input("Enter the Breadth of Rectangle:"))
 area= length * breadth
 print(f"Area of rectangle:",{area})
-#Q2
+#Q2 SUBJECT MARKS
 a=int(input("Enter eng marks:"))
 b=int(input("Enter hindi marks:"))
 c=int(input("Enter eng marks:"))
@@ -20,7 +20,7 @@ for i in range(0, 4):
     c = c + int(b)  
 print(f"Sum:{c}")
 
-#q4
+#q4 CONVERTIONS 
 distance=int(input("Enter the distance between two cities in kilometers:"))
 meter=distance*1000
 print(f"Distance in meter:{meter} m")
