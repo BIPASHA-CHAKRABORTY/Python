@@ -53,3 +53,41 @@ e=b*500
 f=c*1000
 total=d+e+f
 print(f"TOTAL AMOUNT:{total}")
+
+
+
+
+
+
+
+
+i=0
+while(i<=50):
+    print(i)
+    i=i+1
+
+l=[7,9,5,90]
+for i in l:
+    print(i)
+    i=i+1
+
+s="BIPASHA"
+for i in s:
+#     print(i)
+l=[1,2,3,4,5,6]
+
+for i in l:
+    print(i)
+else:
+    print("DONE")
+
+def gretest_num(a,b,c):
+    if (a>b)&(a>c):
+        print("a is the largest")
+    elif(b>a)&(b>c):
+         print("b is the largest")
+    else:
+         print("c is the largest")
+gretest_num(1,2,7)
+gretest_num(8,2,0)
+gretest_num(2,8,0)
