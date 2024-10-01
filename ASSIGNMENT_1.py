@@ -91,3 +91,13 @@ def gretest_num(a,b,c):
 gretest_num(1,2,7)
 gretest_num(8,2,0)
 gretest_num(2,8,0)
+
+
+
+
+
+
+
+
+
+
