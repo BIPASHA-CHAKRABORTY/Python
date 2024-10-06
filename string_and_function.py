@@ -101,3 +101,35 @@ def reverse_number(a):
 a= input("Enter a number:")
 print(f"The actual number you entreed: {a}")
 print(f"Reverse the the entered number : {reverse_number(a)}")
+
+#13
+x=int(input("Enter the value:"))
+total=0
+
+if(x>0):
+   while(x>0):
+    x//=10
+    total+=1
+   print(f"Number of digit:{total}")
+# else:
+#    print("Try again..You`ve entered a negative integer")
+
+#14
+def compound_interest(P,R,Y,T):
+   A=P * ( 1 + R /Y ) ** ( Y * T)
+   return A
+P=10000
+R=5
+Y=7
+T=1
+amount=compound_interest(P,R,Y,T)
+print(amount)
+
+#15
+def Display(Designation, Salary):
+ print("Designation = ",Designation, "Salary = ",Salary)
+Display("Manager",25000)
+Display(300000,"Programmer")
+
+
+
