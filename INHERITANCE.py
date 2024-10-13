@@ -17,3 +17,17 @@ class C(B):
        self._mym()
 obj=C()
 obj.apm()
+
+
+
+
+
+
+
+class A:
+    pass
+class B(A):
+    pass
+class C(A):
+    pass
+
