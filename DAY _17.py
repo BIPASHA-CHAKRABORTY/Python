@@ -20,6 +20,25 @@ print(len(my_string))
 print(len(my_list))
 print(len(my_dict))
 
+# Method Overloading
+class Studennt:
+    def sum(self,a=None,b=None,c=None):   
+        if(a!=None and b!=None and c!=None):
+            print("You added 3 num: ",-a+b+c)
+        elif(a!=None and b!=None):     
+           print("You added 2 num: ",a+b)
+        else:
+           print("You added 0 num: ", a)
+a=Studennt()
+a.sum(2,3,4)
+a.sum(3,5)
+a.sum(2)
+''' OUTPUT:
+You added 3 num:  5
+You added 2 num:  8
+You added 0 num:  2
 
+
+''''
 
 
