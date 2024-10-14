@@ -1,5 +1,6 @@
 #INHERITANCE 
 class A:
+  
   def __init__(self):
      self._my="I am proteceted attributes"
   def _mym(self):
