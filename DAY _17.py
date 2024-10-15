@@ -7,7 +7,6 @@ print("Python"+ " Programming")
 print([1,2]+[3,4])
 
 #USE OF *
-
 print(" Python"*3)
 print([1,2,3]*4)
 
@@ -52,8 +51,6 @@ except Exception as e:
     print("Handeled")
 finally:
     print("DONEE")
-
-
 
 
 #Expection questions 2 
