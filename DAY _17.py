@@ -41,7 +41,7 @@ You added 0 num:  2''''
 
 
 #EXCEPTION HANDLING WITH THE TRY , EXPECT , ELSE, FINALLYY
-
+#questions 1
 a=int(input("enter:"))
 b=int(input("enter:"))
  
@@ -53,3 +53,34 @@ except Exception as e:
 finally:
     print("DONEE")
 
+
+
+
+#Expection questions 2 
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def disp(self):
+        print(f"My name is {self.name} and my age is {self.age}")
+class Emply(Person):
+    def __init__(self, name, age,salary):
+         super().__init__(name,age)
+         self.salary=salary
+    def disp(self):
+        super().disp()
+        print(f"Your slary will be: {self.salary}")
+
+    def set_salary(self,salary):
+        try:
+            if (salary<0):
+                print("Salary can`t be negative")
+            else:
+                self.salary=salary
+        except:
+            print("Handled")
+person=Person("Alexa",56)
+emply=Emply("Alice",83,3333)
+emply.set_salary(-9)
+person.disp()
+emply.disp()
