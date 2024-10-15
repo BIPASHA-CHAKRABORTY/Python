@@ -36,9 +36,20 @@ a.sum(2)
 ''' OUTPUT:
 You added 3 num:  5
 You added 2 num:  8
-You added 0 num:  2
+You added 0 num:  2''''
 
 
-''''
 
+#EXCEPTION HANDLING WITH THE TRY , EXPECT , ELSE, FINALLYY
+
+a=int(input("enter:"))
+b=int(input("enter:"))
+ 
+try:
+   c=a/b
+   print(c)
+except Exception as e:
+    print("Handeled")
+finally:
+    print("DONEE")
 
