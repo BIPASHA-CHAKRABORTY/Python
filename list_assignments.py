@@ -1,5 +1,8 @@
 #QUESTION_1
 L1=[1,"x",4,5.6,"z", 9, "a", 0, 4]
+
+
+
 integers_only = []
 for item in L1:
     if type(item) == int:
