@@ -6,12 +6,16 @@ length=eval(input("Enter the Length of Rectange:"))
 breadth=eval(input("Enter the Breadth of Rectangle:"))
 area= length * breadth
 print(f"Area of rectangle:",{area})
+
+
 #Q2 SUBJECT MARKS
 a=int(input("Enter eng marks:"))
 b=int(input("Enter hindi marks:"))
 c=int(input("Enter eng marks:"))
 d=(a+b+c)/3
 print(d)
+
+
 #Q3 Calculate the sum of 4 input digit
 a = input("Enter any 4 digit number:")  
 c = 0 
